@@ -1,0 +1,257 @@
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    color:brown;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 45px;
+    font-weight: 500;
+    color:#1886c7
+}
+
+h5{
+    font-size:30px;
+    font-weight:500;
+    color:yellowgreen;
+}
+
+.navbar {
+    border-bottom: #1886C7 1px solid;
+
+    
+}
+
+.navbar .navbar-brand{
+    color: #1886C7 ;
+    font-size: 24px;
+   
+    
+}
+
+.bg-dark{
+    background-color: rgba(0,0,0,1) !important;
+    
+}
+
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    transition: color .5s ease;
+}
+
+.nav-link:hover {
+    color: #1886C7 !important;
+}
+
+#headersection {
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#headersection .overlay{
+    background-color: rgba(0,0,0,.7);
+}
+
+#headersection .row{
+    height: 100vh;
+}
+
+#headersection span {
+    color:blueviolet;
+}
+
+.btn-danger {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+    cursor:pointer;
+    text-align: center;
+}
+
+.btn-primary{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+    cursor:pointer;
+    text-align: center;
+    background-color:#1886c7;
+}
+
+.form-inline {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#features .fa {
+    font-size: 40px;
+}
+
+.feature-top {
+    transition: color .5s ease;
+}
+
+.feature-top:hover {
+    color:darkcyan;
+    cursor:pointer;
+}
+
+
+
+
+
+#ourhistory h2{
+    border-left: 6px solid red;
+    padding-left: 30px;
+}
+
+#ourhistory .col-md-6 {
+    display: inline;
+}
+
+#ourhistory .btn-danger{
+    position: absolute;
+    bottom:0;
+}
+
+
+#ourhistory p{
+    line-height: 28px;
+}
+
+
+
+/* Car Section */
+
+#cars .card{
+    border:none;
+    opacity: 0.7;
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+
+#cars .card:hover{
+    opacity: 1;
+}
+
+#whatwedo .span{
+    color:aqua; !important;
+}
+
+
+
+#whatwedo {
+    background: linear-gradient(
+    rgba(0,0,0,.7)
+    rgba(0,0,0,.7)
+    );
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#portfolio h4{
+    font-size:16px;
+    font-weight: 300;
+    
+}
+
+#portfolio .fa{
+    font-size: 24px;
+    
+}
+
+.imagecontainer {
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.imageoverlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: #1886c4;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imagecontainer:hover .imageoverlay {
+    opacity: .7;
+    
+}
+
+
+.carousel-control-prev-icon{
+    width: 40px;
+    height: 50px;
+}
+
+.carousel-control-next-icon{
+    width:40px;
+    height: 50px;
+}
+
+
+#contact {
+    background-color: #f4f5f9;
+}
+   
+#contact .input-group-addon{
+    width: 50px;
+    border-radius: 0;
+    color:#fff;
+    background-color:#1886c7;
+}
+
+#contact .form-control, #contact .btn{
+    border-radius:0;
+}
+
+#main-footer{
+    color:#fff;
+    background-color: #000;
+}
+
+@media screen and (max-width:1200px) {
+    #ourhistory p{
+        line-height: 20px;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    #ourhistory .btn{
+        position: relative;
+    }
+    
+    .historyleft , .historyright {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:786px) {
+    
+}
+
+@media screen and (max-width:576px) {
+    
+}
+
+body{
+    padding-left:0; !important;
+}
